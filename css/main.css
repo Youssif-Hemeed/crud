@@ -1,0 +1,91 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+  font-family: 'Libre Baskerville', serif;
+font-size: 18px;
+}
+
+section {
+background-image: url(../dots.png);
+background-repeat: repeat;
+
+    padding:10px 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    font-weight: bold;
+    margin: 1rem 0 3rem 0;
+      letter-spacing: 0.3rem;
+  font-size: 3rem;
+  font-family: 'Inter', sans-serif;
+  text-shadow: 0px 9px 3px rgba(0,0,0,0.66);
+}
+  
+  
+  input[type="text"],
+  input[type="number"]
+ {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+  }
+  
+  input[type="text"]:focus,
+  input[type="number"]:focus {
+    outline: none;
+    border: 2px solid #212121;
+  }
+  
+  button {
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+  }
+  
+ 
+  input {
+    color: #212121;
+border: none;
+outline: none;  
+}
+
+small{
+    padding: 7px 18px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    color: #fff;
+    font-size: 1.3rem;
+    background-color: #070404 ;
+}
+#mainButton {
+  background-color: #212121 ;
+  color: #fff;
+}
+small::before {
+    content: 'Total :';
+}
+table {
+  z-index: 1;
+  background-color: #f2f2f2;
+}
+
+#btnDeleteAll{
+  background-color: #000000;
+color: #f2f2f2;
+
+}
+
+span {
+  background-color: #ffc107;
+}
